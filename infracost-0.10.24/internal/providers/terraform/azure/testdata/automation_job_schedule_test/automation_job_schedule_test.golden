@@ -1,0 +1,21 @@
+
+ Name                                              Monthly Qty  Unit                Monthly Cost 
+                                                                                                 
+ azurerm_automation_job_schedule.fiveMinutes                                                     
+ └─ Job run time                                             5  minutes                    $0.01 
+                                                                                                 
+ azurerm_automation_job_schedule.withoutUsage                                                    
+ └─ Job run time                               Monthly cost depends on usage: $0.002 per minutes 
+                                                                                                 
+ OVERALL TOTAL                                                                             $0.01 
+──────────────────────────────────
+4 cloud resources were detected:
+∙ 3 were estimated, all of which include usage-based costs, see https://infracost.io/usage-file
+∙ 1 was free:
+  ∙ 1 x azurerm_resource_group
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┓
+┃ Project                                            ┃ Monthly cost ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━┫
+┃ TestAzureRMAutomationJobSchedule                   ┃ $0.01        ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━┛

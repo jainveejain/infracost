@@ -1,0 +1,19 @@
+
+ Name                                 Monthly Qty  Unit            Monthly Cost 
+                                                                                
+ google_bigquery_dataset.non_usage                                              
+ └─ Queries (on-demand)             Monthly cost depends on usage: $5.00 per TB 
+                                                                                
+ google_bigquery_dataset.usage                                                  
+ └─ Queries (on-demand)                     100.3  TB                   $501.50 
+                                                                                
+ OVERALL TOTAL                                                          $501.50 
+──────────────────────────────────
+2 cloud resources were detected:
+∙ 2 were estimated, all of which include usage-based costs, see https://infracost.io/usage-file
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┓
+┃ Project                                            ┃ Monthly cost ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━┫
+┃ TestBigqueryDataset                                ┃ $502         ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━┛

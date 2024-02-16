@@ -1,0 +1,19 @@
+
+ Name                                                     Monthly Qty  Unit            Monthly Cost 
+                                                                                                    
+ google_logging_billing_account_sink.basic                                                          
+ └─ Logging data                                        Monthly cost depends on usage: $0.50 per GB 
+                                                                                                    
+ google_logging_billing_account_sink.my-sink_withUsage                                              
+ └─ Logging data                                                  100  GB                    $50.00 
+                                                                                                    
+ OVERALL TOTAL                                                                               $50.00 
+──────────────────────────────────
+2 cloud resources were detected:
+∙ 2 were estimated, all of which include usage-based costs, see https://infracost.io/usage-file
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┓
+┃ Project                                            ┃ Monthly cost ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━┫
+┃ TestLoggingBillingAccountSinkGoldenFile            ┃ $50          ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━┛

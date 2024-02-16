@@ -1,0 +1,21 @@
+
+ Name                        Monthly Qty  Unit   Monthly Cost 
+                                                              
+ azurerm_public_ip.example                                    
+ └─ IP address (static)              730  hours         $3.65 
+                                                              
+ azurerm_public_ip.example1                                   
+ └─ IP address (dynamic)             730  hours         $2.92 
+                                                              
+ OVERALL TOTAL                                          $6.57 
+──────────────────────────────────
+3 cloud resources were detected:
+∙ 2 were estimated
+∙ 1 was free:
+  ∙ 1 x azurerm_resource_group
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┓
+┃ Project                                            ┃ Monthly cost ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━┫
+┃ TestAzureRMPublicIP                                ┃ $7           ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━┛

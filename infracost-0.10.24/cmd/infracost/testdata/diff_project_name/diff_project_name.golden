@@ -1,0 +1,269 @@
+──────────────────────────────────
+Project: my first project
+Module path: ../../../../examples/terraform
+
+~ aws_instance.web_app
+  -$561 ($1,303 → $743)
+
+    ~ Instance usage (Linux/UNIX, on-demand, m5.8xlarge → m5.4xlarge)
+      -$561 ($1,121 → $561)
+
+~ aws_lambda_function.hello_world
+  Monthly cost depends on usage
+
+    - Duration
+      Monthly cost depends on usage
+        -$0.0000166667 per GB-seconds
+
+    + Ephemeral storage
+      Monthly cost depends on usage
+        +$0.0000000309 per GB-seconds
+
+    + Duration (first 6B)
+      Monthly cost depends on usage
+        +$0.0000166667 per GB-seconds
+
+Monthly cost change for my first project (Module path: ../../../../examples/terraform)
+Amount:  -$561 ($1,303 → $743)
+Percent: -43%
+
+──────────────────────────────────
+Project: my first project again
+Module path: ../../../../examples/terraform
+
+~ aws_instance.web_app
+  -$561 ($1,303 → $743)
+
+    ~ Instance usage (Linux/UNIX, on-demand, m5.8xlarge → m5.4xlarge)
+      -$561 ($1,121 → $561)
+
+~ aws_lambda_function.hello_world
+  Monthly cost depends on usage
+
+    - Duration
+      Monthly cost depends on usage
+        -$0.0000166667 per GB-seconds
+
+    + Ephemeral storage
+      Monthly cost depends on usage
+        +$0.0000000309 per GB-seconds
+
+    + Duration (first 6B)
+      Monthly cost depends on usage
+        +$0.0000166667 per GB-seconds
+
+Monthly cost change for my first project again (Module path: ../../../../examples/terraform)
+Amount:  -$561 ($1,303 → $743)
+Percent: -43%
+
+──────────────────────────────────
+Project: my terragrunt dev project
+Module path: terragrunt/dev
+
+~ aws_lambda_function.hello_world
+  Monthly cost depends on usage
+
+    - Duration
+      Monthly cost depends on usage
+        -$0.0000166667 per GB-seconds
+
+    + Ephemeral storage
+      Monthly cost depends on usage
+        +$0.0000000309 per GB-seconds
+
+    + Duration (first 6B)
+      Monthly cost depends on usage
+        +$0.0000166667 per GB-seconds
+
+Monthly cost change for my terragrunt dev project (Module path: terragrunt/dev)
+Amount:  $0.00 ($52 → $52)
+Percent: 0%
+
+──────────────────────────────────
+Project: my terragrunt multi project
+Module path: terragrunt/dev
+
+~ aws_lambda_function.hello_world
+  Monthly cost depends on usage
+
+    - Duration
+      Monthly cost depends on usage
+        -$0.0000166667 per GB-seconds
+
+    + Ephemeral storage
+      Monthly cost depends on usage
+        +$0.0000000309 per GB-seconds
+
+    + Duration (first 6B)
+      Monthly cost depends on usage
+        +$0.0000166667 per GB-seconds
+
+Monthly cost change for my terragrunt multi project (Module path: terragrunt/dev)
+Amount:  $0.00 ($52 → $52)
+Percent: 0%
+
+──────────────────────────────────
+Project: my terragrunt multi project
+Module path: terragrunt/prod
+
+~ aws_instance.web_app
+  -$561 ($1,308 → $748)
+
+    ~ Instance usage (Linux/UNIX, on-demand, m5.8xlarge → m5.4xlarge)
+      -$561 ($1,121 → $561)
+
+~ aws_lambda_function.hello_world
+  Monthly cost depends on usage
+
+    - Duration
+      Monthly cost depends on usage
+        -$0.0000166667 per GB-seconds
+
+    + Ephemeral storage
+      Monthly cost depends on usage
+        +$0.0000000309 per GB-seconds
+
+    + Duration (first 6B)
+      Monthly cost depends on usage
+        +$0.0000166667 per GB-seconds
+
+Monthly cost change for my terragrunt multi project (Module path: terragrunt/prod)
+Amount:  -$561 ($1,308 → $748)
+Percent: -43%
+
+──────────────────────────────────
+Project: my terragrunt prod project
+Module path: terragrunt/prod
+
+~ aws_instance.web_app
+  -$561 ($1,308 → $748)
+
+    ~ Instance usage (Linux/UNIX, on-demand, m5.8xlarge → m5.4xlarge)
+      -$561 ($1,121 → $561)
+
+~ aws_lambda_function.hello_world
+  Monthly cost depends on usage
+
+    - Duration
+      Monthly cost depends on usage
+        -$0.0000166667 per GB-seconds
+
+    + Ephemeral storage
+      Monthly cost depends on usage
+        +$0.0000000309 per GB-seconds
+
+    + Duration (first 6B)
+      Monthly cost depends on usage
+        +$0.0000166667 per GB-seconds
+
+Monthly cost change for my terragrunt prod project (Module path: terragrunt/prod)
+Amount:  -$561 ($1,308 → $748)
+Percent: -43%
+
+──────────────────────────────────
+Project: my terragrunt workspace
+Module path: terragrunt/dev
+Workspace: ws2
+
+~ aws_lambda_function.hello_world
+  Monthly cost depends on usage
+
+    - Duration
+      Monthly cost depends on usage
+        -$0.0000166667 per GB-seconds
+
+    + Ephemeral storage
+      Monthly cost depends on usage
+        +$0.0000000309 per GB-seconds
+
+    + Duration (first 6B)
+      Monthly cost depends on usage
+        +$0.0000166667 per GB-seconds
+
+Monthly cost change for my terragrunt workspace (Module path: terragrunt/dev, Workspace: ws2)
+Amount:  $0.00 ($52 → $52)
+Percent: 0%
+
+──────────────────────────────────
+Project: my terragrunt workspace
+Module path: terragrunt/prod
+Workspace: ws2
+
+~ aws_instance.web_app
+  -$561 ($1,308 → $748)
+
+    ~ Instance usage (Linux/UNIX, on-demand, m5.8xlarge → m5.4xlarge)
+      -$561 ($1,121 → $561)
+
+~ aws_lambda_function.hello_world
+  Monthly cost depends on usage
+
+    - Duration
+      Monthly cost depends on usage
+        -$0.0000166667 per GB-seconds
+
+    + Ephemeral storage
+      Monthly cost depends on usage
+        +$0.0000000309 per GB-seconds
+
+    + Duration (first 6B)
+      Monthly cost depends on usage
+        +$0.0000166667 per GB-seconds
+
+Monthly cost change for my terragrunt workspace (Module path: terragrunt/prod, Workspace: ws2)
+Amount:  -$561 ($1,308 → $748)
+Percent: -43%
+
+──────────────────────────────────
+Project: my workspace project
+Module path: ../../../../examples/terraform
+Workspace: ws1
+
+~ aws_instance.web_app
+  -$561 ($1,303 → $743)
+
+    ~ Instance usage (Linux/UNIX, on-demand, m5.8xlarge → m5.4xlarge)
+      -$561 ($1,121 → $561)
+
+~ aws_lambda_function.hello_world
+  Monthly cost depends on usage
+
+    - Duration
+      Monthly cost depends on usage
+        -$0.0000166667 per GB-seconds
+
+    + Ephemeral storage
+      Monthly cost depends on usage
+        +$0.0000000309 per GB-seconds
+
+    + Duration (first 6B)
+      Monthly cost depends on usage
+        +$0.0000166667 per GB-seconds
+
+Monthly cost change for my workspace project (Module path: ../../../../examples/terraform, Workspace: ws1)
+Amount:  -$561 ($1,303 → $743)
+Percent: -43%
+
+──────────────────────────────────
+Key: ~ changed, + added, - removed
+
+18 cloud resources were detected:
+∙ 18 were estimated, all of which include usage-based costs, see https://infracost.io/usage-file
+
+Infracost estimate: monthly cost will decrease by $3,364 ↓
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┓
+┃ Project                                            ┃ Cost change  ┃ New monthly cost ┃
+┣━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━╋━━━━━━━━━━━━━━━━━━┫
+┃ my first project                                   ┃ -$561 (-43%) ┃ $743             ┃
+┃ my first project again                             ┃ -$561 (-43%) ┃ $743             ┃
+┃ my terragrunt dev project                          ┃           $0 ┃ $52              ┃
+┃ my terragrunt multi project                        ┃           $0 ┃ $52              ┃
+┃ my terragrunt multi project                        ┃ -$561 (-43%) ┃ $748             ┃
+┃ my terragrunt prod project                         ┃ -$561 (-43%) ┃ $748             ┃
+┃ my terragrunt workspace                            ┃           $0 ┃ $52              ┃
+┃ my terragrunt workspace                            ┃ -$561 (-43%) ┃ $748             ┃
+┃ my workspace project                               ┃ -$561 (-43%) ┃ $743             ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━┛
+
+Err:
+

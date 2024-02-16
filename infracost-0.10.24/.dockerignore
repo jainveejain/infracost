@@ -1,0 +1,10 @@
+.*
+!.git
+!.env
+Dockerfile
+build/
+.terraform/
+*tfstate*
+*.png
+*.md
+examples/
