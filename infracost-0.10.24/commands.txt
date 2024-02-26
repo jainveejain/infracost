@@ -1,0 +1,11 @@
+Terraform Plan JSON :
+
+build/infracost breakdown --path ./cmd/infracost/testdata/example_plan.json
+
+build/infracost breakdown --path ./cmd/infracost/testdata/example_plan.json
+
+build/infracost breakdown --path ./cmd/infracost/testdata/example_plan.json
+
+build/infracost breakdown --path ./cmd/infracost/testdata/example_plan.json --format json
+
+build/infracost breakdown --path ./cmd/infracost/testdata/example_plan.json --usage-file ./cmd/infracost/testdata/example_usage.yml
