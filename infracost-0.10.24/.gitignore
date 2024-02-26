@@ -9,7 +9,7 @@ VSWorkspaceState.json
 **/.DS_Store
 
 # Build artifacts
-/build
+#/build
 
 # Test binary, built with `go test -c`
 *.test

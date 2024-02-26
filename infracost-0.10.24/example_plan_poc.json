@@ -1,0 +1,19 @@
+{
+  "format_version": "0.2",
+  "planned_values": {
+    "root_module": {
+      "resources": [
+        {
+          "address": "aws_lambda_function.hello_world",
+          "mode": "managed",
+          "type": "aws_lambda_function",
+          "values": {
+            "memory_size": 1024
+          }
+        }
+      ]
+    }
+  }
+
+}
+
